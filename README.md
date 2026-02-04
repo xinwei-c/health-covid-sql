@@ -8,7 +8,7 @@ This project uses two datasets:
 - CovidVaccinations — vaccination data, including daily vaccination counts and cumulative measures
 Both datasets are joined on location and date for analysis.
 
-
+#### Part of the work
 ```sql
 SELECT location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 AS DeathPercentage
 FROM health_project.coviddeaths
